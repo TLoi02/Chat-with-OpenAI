@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat With AI</title>
+    <link th:fragment="link-css" rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+    <link th:fragment="link-css" rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <section>
+        <div class="container py-5">
+
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-8 col-lg-6 col-xl-4">
+
+                    <div class="card" id="chat1" style="border-radius: 15px;">
+                        <div
+                                class="card-header d-flex justify-content-between align-items-center p-3 bg-info text-white border-bottom-0"
+                                style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+                            <i class="fas fa-angle-left"></i>
+                            <p class="mb-0 fw-bold">Chat AI</p>
+                            <form>
+                                <button type="submit" onclick="hanelReset()">Reset</button>
+                            </form>
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <!--Chat content-->
+                        <div class="card-body">
+
+
+
+
+                        </div>
+                        <!--Input content-->
+                        <div class="form__wrap">
+                            <form class="form-outline flex-end">
+                                <textarea class="form-control" id="textAreaExample" rows="2" ></textarea>
+                                <div class="button__wrap">
+                                    <button class="button__item" type="submit" onclick="handelSendMessage()">Send</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <script th:src="@{/js/bootstrap.bundle.min.js}"></script>
+    <script th:src="@{/js/main.js}"></script>
+</body>
+</html>
