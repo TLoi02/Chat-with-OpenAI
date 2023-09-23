@@ -8,7 +8,7 @@ Project to handel API chat to OpenAI. You can use this project to rest API from 
 ## Demo
 [Watch demo](https://drive.google.com/file/d/1EIJ1QaR6267y3TvZ7v_X9WWKiOtLTRWH/view?usp=sharing)
 ## My other projects
-- [Book Shop](https://github.com/TLoi02/BookStore-Java).
+- [LTech Book](https://github.com/TLoi02/LTech-Book).
 - [Donut Shop Backend](https://github.com/TLoi02/DonutShop_Backend).
 - [Donut Shop Frontend](https://github.com/TLoi02/Donutshop_Frontend).
 - [Notes App](https://github.com/TLoi02/Notes-app).
